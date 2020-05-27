@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  box-sizing: border-box;
+}
+
+.intro-container {
+  max-width: 600px;
+  width: 100%;
+  text-align: justify;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    margin-top: 30px;
+  }
+}
+
+.stepper-container {
+  margin: 20px;
+
+  display: flex;
+  justify-content: center;
+
+  .ant-steps {
+    height: 500px;
+    max-width: 200px;
+    width: 100%;
+    margin-right: 50px;
+  }
+
+  .content-container {
+    max-width: 500px;
+    width: 100%;
+
+    &.last-step {
+      min-width: 800px;
+    }
+
+    input, textarea {
+      margin-bottom: 20px;
+    }
+
+    .ant-input-search input {
+      margin-bottom: 0;
+    }
+
+    .ant-tag {
+      margin-top: 20px;
+    }
+
+    .button-container {
+      margin-top: 20px;
+      max-width: 250px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.preivew {
+  display: flex;
+  flex: 1 1 0;
+  width: 100%;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .info-block {
+    font-family: Montserrat;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    div {
+      color: white;
+    }
+  }
+
+  .left-side {
+    width: 40%;
+    padding: 20px 10px;
+
+    color: white;
+    img {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    h3, h1 {
+      color: white;
+    }
+  }
+
+  .right-side {
+    h3, h1 {
+      color: white;
+    }
+    width: 60%;
+    padding: 20px 10px;
+  }
+}
+
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("Montserrat-Regular.otf");
+}
+
+.header {
+  font: normal 32px Montserrat;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 35px;
+}
+
+.header a {
+  color: white;
+}
+
+
+
+.ant-btn {
+  background: transparent !important;
+  border: 1px solid !important;
+  width: 250px;
+  color: white !important;
+}
+
+.ant-btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.ant-steps-item-title, .ant-steps-item-description {
+  color: white !important;
+  font-family: Montserrat;
+}
+
+.ant-steps-item-description {
+  font-size: 11px !important;
+}
+
+.result {
+
+}
