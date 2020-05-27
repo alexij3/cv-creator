@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0663ad29-d127-41a1-b161-be3f6b0f0fb3" name="Default Changelist" comment="" />
+    <list default="true" id="0663ad29-d127-41a1-b161-be3f6b0f0fb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cVAnT5gojqJZcUwEBiaZok3gZB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590603553459</updated>
-      <workItem from="1590603554769" duration="4461000" />
+      <workItem from="1590603554769" duration="5028000" />
     </task>
     <servers />
   </component>
@@ -50,9 +56,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="588" y="51" width="743" height="930" key="find.popup" timestamp="1590607845744">
+    <state x="588" y="51" width="743" height="930" key="find.popup" timestamp="1590608926544">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="588" y="51" width="743" height="930" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1590607845744" />
+    <state x="588" y="51" width="743" height="930" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1590608926544" />
   </component>
 </project>
